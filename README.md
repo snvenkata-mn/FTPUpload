@@ -11,9 +11,13 @@ Few checks before using this script:
 2) Login to remote server and run below commands (Onetime Task)
 
     a) man sshpass (Checking if it is already installed, if yes you can skip this step and run the script directly, else run below commands)
+    
     b) yum --enablerepo=epel -y install sshpass (if this says sshpass package is not present, execute below commands)
+    
     c) wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm  (Adding new mirror )
+    
     d) rpm -ivh epel-release-6-8.noarch.rpm
+    
     e) yum --enablerepo=epel -y install sshpass (Now, this should install sshpass)
 
 			Steps:
